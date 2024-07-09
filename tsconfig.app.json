@@ -21,7 +21,10 @@
       "@controller/*": ["./src/controllers/*"],
       "@widget/*": ["./src/widget/*"],
       "@userCardStore/*": ["./src/stores/userCard/*"],
-      "@composable/*": ["./src/composables/*"]
+      "@composable/*": ["./src/composables/*"],
+      "@modules/*": ["./src/modules/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@core/*": ["./src/core/*"]
     }
   }
 }

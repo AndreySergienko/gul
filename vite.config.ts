@@ -21,6 +21,9 @@ export default defineConfig({
       '@component': createAliasPath('components'),
       '@widget': createAliasPath('widget'),
       '@composable': createAliasPath('composables'),
+      '@utils': createAliasPath('utils'),
+      '@modules': createAliasPath('modules'),
+      '@core': createAliasPath('core')
     },
   },
 })
