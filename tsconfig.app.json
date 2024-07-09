@@ -1,0 +1,27 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "include": [
+    "env.d.ts",
+    "src/**/*",
+    "src/**/*.vue",
+    "src/types/*.ts",
+    "src/controllers/*.vue",
+    "vite"
+  ],
+  "exclude": ["src/**/__tests__/*"],
+  "compilerOptions": {
+    "composite": true,
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@type/*": ["./src/types/*"],
+      "@component/*": ["./src/components/*"],
+      "@controller/*": ["./src/controllers/*"],
+      "@widget/*": ["./src/widget/*"],
+      "@userCardStore/*": ["./src/stores/userCard/*"],
+      "@composable/*": ["./src/composables/*"]
+    }
+  }
+}
