@@ -1,8 +1,8 @@
-// vite.config.ts
+// vite.text.ts
 import { fileURLToPath, URL } from 'node:url'
 import { defineConfig } from 'file:///C:/Users/andre/Desktop/%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B0%20(2)/my-view-test/vue-project/node_modules/vite/dist/node/index.js'
 import vue from 'file:///C:/Users/andre/Desktop/%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B0%20(2)/my-view-test/vue-project/node_modules/@vitejs/plugin-vue/dist/index.mjs'
-var __vite_injected_original_import_meta_url = 'file:///C:/Users/andre/Desktop/%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B0%20(2)/my-view-test/vue-project/vite.config.ts'
+var __vite_injected_original_import_meta_url = 'file:///C:/Users/andre/Desktop/%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B0%20(2)/my-view-test/vue-project/vite.text.ts'
 var vite_config_default = defineConfig({
   plugins: [
     vue()
