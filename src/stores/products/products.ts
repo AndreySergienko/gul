@@ -21,7 +21,7 @@ export const useProductsStore = defineStore('global/products', () => {
     } catch (e) {
       // Обработка ошибки/Вызов алёрта
     } finally {
-      isLoading.value = false
+      // isLoading.value = false
     }
   }
 

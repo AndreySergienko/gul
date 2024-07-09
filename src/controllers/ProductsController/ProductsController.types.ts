@@ -7,4 +7,5 @@ interface IProductsSlot {
 export interface IProductsControllerSlots {
   'products'(props: IProductsSlot): void
   'loading'(props: void): void
+  'form' (props: void): void
 }
